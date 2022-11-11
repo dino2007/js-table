@@ -1,0 +1,83 @@
+#search-result {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#search-result td,
+#search-result th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#search-result tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#search-result tr:hover {
+    background-color: #ddd;
+}
+
+#search-result th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: rgb(8, 8, 8);
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* Pagination links */
+
+.pagination {
+    display: inline;
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+/* Style the active/current link */
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* Add a grey background color on mouse-over */
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+/* display-info */
+
+#dspl_info {
+    display: block;
+    float: right;
+    padding: 8px 16px;
+}
+
+@media only screen and (max-width: 500px) {
+    #dspl_info {
+        display: block;
+        padding: 8px 16px;
+    }
+    .pagination {
+        display: block;
+        float: left;
+    }
+}
