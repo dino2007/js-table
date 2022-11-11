@@ -39,3 +39,6 @@ Example:
 t.init();
 
 ```
+Example:
+
+https://codesandbox.io/s/beautiful-snowflake-d5qv5t
